@@ -37,5 +37,5 @@ function drain (op) {
 }
 
 function loud (err) {
-  throw err
+  if (err) throw err
 }

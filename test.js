@@ -83,3 +83,24 @@ test('error', function (t) {
     t.is(err.message, 'test error', 'has abort error')
   })
 })
+
+test('no callback continuable', function (t) {
+  t.plan(2)
+
+  var result = []
+  pull(
+    count(5),
+    drain(result.push.bind(result))
+  )()
+  t.same(result, [0, 1, 2, 3, 4, 5], 'runs fine')
+
+  try {
+    pull(
+      error(new Error('test error')),
+      drain()
+    )()
+  } catch (err) {
+    t.same(err.message, 'test error', 'does not swallow errors')
+  }
+
+})
