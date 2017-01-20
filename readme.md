@@ -46,7 +46,7 @@ pull(
 
 Return `false` inside the `op` function to abort the stream.
 
-### `drain(op).abort([err])`
+### `sink.abort([err])`
 
 To abort the stream from outside the callback, you can use an `.abort` method, and optionally pass it an error:
 
