@@ -1,0 +1,25 @@
+{
+  "name": "pull-drain",
+  "description": "Pull stream sink that drains source stream's data",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Jamen%20Marzonie/pull-drain",
+  "author": "Jamen Marz (https://git.io/jamen)",
+  "repository": "Jamen%20Marzonie/pull-drain",
+  "bugs": {
+    "url": "https://github.com/Jamen%20Marzonie/pull-drain/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "devDependencies": {
+    "pull-stream": "^3.5.0",
+    "tape": "^4.6.3"
+  },
+  "keywords": [
+    "Jamen%20Marzonie"
+  ]
+}
