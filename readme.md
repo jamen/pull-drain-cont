@@ -73,6 +73,6 @@ MIT © [Jamen Marz](https://git.io/jamen)
 
 ---
 
-[![version](https://img.shields.io/npm/v/pull-drain.svg?style=flat-square)][package] [![travis](https://img.shields.io/travis/Jamen%20Marzonie/pull-drain.svg?style=flat-square)](https://travis-ci.org/jamen/pull-drain) [![downloads](https://img.shields.io/npm/dt/pull-drain.svg?style=flat-square)][package] [![license](https://img.shields.io/npm/l/pull-drain.svg?style=flat-square)][package] [![support me](https://img.shields.io/badge/support%20me-paypal-green.svg?style=flat-square)](https://paypal.me/jamenmarz/5usd) [![follow](https://img.shields.io/github/followers/Jamen%20Marzonie.svg?style=social&label=Follow)](https://github.com/Jamen%20Marzonie)
+[![version](https://img.shields.io/npm/v/pull-drain.svg?style=flat-square)][package] [![travis](https://img.shields.io/travis/jamen/pull-drain.svg?style=flat-square)](https://travis-ci.org/jamen/pull-drain) [![downloads](https://img.shields.io/npm/dt/pull-drain.svg?style=flat-square)][package] [![license](https://img.shields.io/npm/l/pull-drain.svg?style=flat-square)][package] [![support me](https://img.shields.io/badge/support%20me-paypal-green.svg?style=flat-square)](https://paypal.me/jamenmarz/5usd) [![follow](https://img.shields.io/github/followers/jamen.svg?style=social&label=Follow)](https://github.com/jamen)
 
 [package]: https://npmjs.org/package/pull-drain
